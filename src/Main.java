@@ -10,8 +10,8 @@ public class Main {
         while (startAmount<needSave){
             month ++;
             startAmount += amountDefferal;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + startAmount + " рублей.");
         }
-        System.out.println("Месяц " + month + ", сумма накоплений равна " + startAmount + " рублей.");
 
         System.out.println();
 
